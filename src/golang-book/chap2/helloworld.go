@@ -1,8 +1,14 @@
 package main
 import "fmt"
 func main(){
-	fmt.Println(len("Hello World"))
-	fmt.Println("Hello World"[1])
-	fmt.Println("Hello ", "World")
+	var x = "Hello World"
+	fmt.Println(x)
+	y:= 5
+	var z int = 6
+	fmt.Println(y==z)
+	
+	//error
+	t = "Pham Hong Dang"
+	fmt.Println(t)
 
 }
