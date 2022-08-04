@@ -1,14 +1,9 @@
 package main
 import "fmt"
-func main(){
-	var x = "Hello World"
-	fmt.Println(x)
-	y:= 5
-	var z int = 6
-	fmt.Println(y==z)
-	
-	//error
-	t = "Pham Hong Dang"
-	fmt.Println(t)
-
+func main() {
+fmt.Print("Enter a number: ")
+var input float64
+fmt.Scanf("%f", &input)
+output := input * 2
+fmt.Println(output)
 }
