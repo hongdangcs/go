@@ -1,9 +1,12 @@
 package main
 import "fmt"
 func main() {
-fmt.Print("Enter a number: ")
-var input float64
-fmt.Scanf("%f", &input)
-output := input * 2
-fmt.Println(output)
+	i := 1
+	for i<10{
+		fmt.Println(i)
+		i++
+	}
+	for j:=0; j<10; j++{
+		fmt.Println(j)
+	}
 }
